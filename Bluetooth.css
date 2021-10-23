@@ -1,4 +1,4 @@
-﻿body {
+body {
     background-image: url(hatter.jpg);
 
 }
@@ -36,7 +36,7 @@ th {
 }
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
     .column {
         -ms-flex: 50%;
         flex: 50%;
@@ -57,9 +57,9 @@ th {
 img {
     position: relative;
     max-width: 200px;
+    height: auto;
     float: left;
-    height:auto;
-    margin-right: 30px;
+    margin-right: 40px;
     padding-bottom: 1em;
 }
 
@@ -99,4 +99,3 @@ footer {
     text-align:right;
     padding-top:1em;
 }
-
